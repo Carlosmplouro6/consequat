@@ -1,0 +1,9 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .Footer {
+    position: absolute;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headerContainer {
+  height: 6vh;
+  background-color: #c75f19;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerContainer .logo {
+  margin-left: 1rem;
+}
+
+.headerContainer .logo a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=Header.css.map */
