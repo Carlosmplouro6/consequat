@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .mainContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,7 +11,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
+  height: 100vh;
+  background-color: #343837;
 }
 
 .mainContainer .Footer {

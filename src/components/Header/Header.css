@@ -1,11 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .headerContainer {
   height: 6vh;
-  background-color: #c75f19;
+  background-color: #0f9b8e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

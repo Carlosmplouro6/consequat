@@ -1,8 +1,19 @@
 import React, { Component } from "react";
+import "./Footer.css";
 
 export class Footer extends Component {
   render() {
-    return <div>this is a footer</div>;
+    return (
+      <div className="FooterContainer">
+        <div className="FooterContent">Made by Carlos Louro</div>
+        <div className="FooterContent">
+          API courtesy by{" "}
+          <a href="https://www.themealdb.com" target="_blank">
+            www.themealdb.com/
+          </a>
+        </div>
+      </div>
+    );
   }
 }
 

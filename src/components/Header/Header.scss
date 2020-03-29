@@ -1,11 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+@import "../../utilities/_variables";
 
 .headerContainer {
   height: 6vh;
-  background-color: rgb(199, 95, 25);
+  background-color: $mainGreen;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +11,7 @@
     margin-left: 1rem;
     a {
       text-decoration: none;
-      color: black;
+      color: $blackText;
     }
   }
 }

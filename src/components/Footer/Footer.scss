@@ -1,0 +1,19 @@
+@import "../../utilities/_variables";
+
+.FooterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 6vh;
+  width: 100vw;
+  background-color: $mainGreen;
+  color: $blackText;
+  .FooterContent {
+    margin: 0 1rem;
+
+    a {
+      color: $blackText;
+    }
+  }
+}
