@@ -3,7 +3,7 @@
   display: grid;
   height: 88vh;
   width: 16vw;
-  background-color: #03719c;
+  background-color: #f19e8e;
   -ms-grid-columns: (1fr)[1];
       grid-template-columns: repeat(1, 1fr);
   -ms-grid-rows: auto;
@@ -26,7 +26,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #0f9b8e;
+  background: #58656d;
   border-radius: 10px;
 }
 /*# sourceMappingURL=ButtonBay.css.map */
