@@ -1,8 +1,10 @@
 @import "./utilities/_variables";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto Slab", serif;
 }
 
 .mainContainer {
@@ -10,8 +12,4 @@
   flex-direction: column;
   height: 100vh;
   background-color: $mainGrey;
-  .Footer {
-    position: absolute;
-    bottom: 0;
-  }
 }

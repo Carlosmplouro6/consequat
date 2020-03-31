@@ -8,7 +8,11 @@ export class Footer extends Component {
         <div className="FooterContent">Made by Carlos Louro</div>
         <div className="FooterContent">
           API courtesy by{" "}
-          <a href="https://www.themealdb.com" target="_blank">
+          <a
+            href="https://www.themealdb.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             www.themealdb.com/
           </a>
         </div>

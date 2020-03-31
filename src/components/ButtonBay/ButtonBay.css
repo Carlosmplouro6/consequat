@@ -1,0 +1,32 @@
+.buttonGrid {
+  display: -ms-grid;
+  display: grid;
+  height: 88vh;
+  width: 16vw;
+  background-color: #03719c;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  justify-items: center;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 0;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0f9b8e;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=ButtonBay.css.map */

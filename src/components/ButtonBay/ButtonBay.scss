@@ -1,0 +1,28 @@
+@import "../../utilities/_variables";
+
+.buttonGrid {
+  display: grid;
+  height: 88vh;
+  width: 16vw;
+  background-color: $mainBlue;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  align-content: start;
+  justify-items: center;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 0;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $mainGreen;
+  border-radius: 10px;
+}

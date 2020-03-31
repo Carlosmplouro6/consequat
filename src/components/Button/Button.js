@@ -1,7 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
+import "./Button.css";
 
-const Button = () => {
-  return <div>hello</div>;
+const Button = ({ categories }) => {
+  return (
+    <div key={categories.strCategory}>
+      {" "}
+      <button className="categorieButton">{categories.strCategory}</button>{" "}
+    </div>
+  );
 };
 
 export default Button;
