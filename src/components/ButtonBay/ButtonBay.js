@@ -26,4 +26,5 @@ const ButtonBay = () => {
     </div>
   );
 };
+
 export default ButtonBay;

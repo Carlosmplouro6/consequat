@@ -8,5 +8,18 @@
   margin: 0 0.25rem;
   border: none;
   border-bottom: #58656d 2px solid;
+  -webkit-transition: background-color ease-in 0.3s;
+  transition: background-color ease-in 0.3s;
+}
+
+.categorieButton:hover, .categorieButton:focus {
+  outline-color: #f19e8e;
+  background-color: #58656d;
+  border: #f19e8e 2px solid;
+}
+
+.active {
+  background-color: #58656d;
+  border: #f19e8e 2px solid;
 }
 /*# sourceMappingURL=Button.css.map */
