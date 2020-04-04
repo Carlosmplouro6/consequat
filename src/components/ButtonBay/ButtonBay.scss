@@ -3,7 +3,7 @@
 .buttonGrid {
   display: grid;
   height: 88vh;
-  width: 16vw;
+  width: 18vw;
   background-color: $mainPrimary;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
@@ -25,4 +25,44 @@
 ::-webkit-scrollbar-thumb {
   background: $mainSecondary;
   border-radius: 10px;
+}
+
+.categorieButton {
+  width: 16vw;
+  height: 4rem;
+  margin: 0 0;
+  background-color: $mainPrimary;
+  color: $blackText;
+  font-size: 1.7rem;
+  margin: 0 0.25rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color ease-in 0.3s;
+  font-family: "Roboto Slab", serif;
+  &:hover,
+  &:focus {
+    background-color: $mainSecondary;
+    border: $mainPrimary 4px solid;
+  }
+  &:focus {
+    outline-color: $mainPrimary;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -5px;
+    width: 100%;
+    border-bottom: 2px solid $mainSecondary;
+    transition: border ease-in 0.4s;
+  }
+}
+
+.active {
+  background-color: $mainSecondary;
+  border: $mainPrimary 2px solid;
+  &::after {
+    border-bottom: 2px solid $mainPrimary;
+  }
 }
