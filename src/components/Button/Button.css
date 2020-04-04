@@ -2,24 +2,25 @@
   width: 14vw;
   height: 4rem;
   margin: 0 0;
-  background-color: #f19e8e;
+  background-color: #fbf7f7;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: 0 0.25rem;
   border: none;
-  border-bottom: #58656d 2px solid;
+  border-bottom: #c04b20 2px solid;
   -webkit-transition: background-color ease-in 0.3s;
   transition: background-color ease-in 0.3s;
+  font-family: "Roboto Slab", serif;
 }
 
 .categorieButton:hover, .categorieButton:focus {
-  outline-color: #f19e8e;
-  background-color: #58656d;
-  border: #f19e8e 2px solid;
+  outline-color: #fbf7f7;
+  background-color: #c04b20;
+  border: #fbf7f7 2px solid;
 }
 
 .active {
-  background-color: #58656d;
-  border: #f19e8e 2px solid;
+  background-color: #c04b20;
+  border: #fbf7f7 2px solid;
 }
 /*# sourceMappingURL=Button.css.map */

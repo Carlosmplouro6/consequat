@@ -6,12 +6,12 @@
   margin: 0 0;
   background-color: $mainPrimary;
   color: $blackText;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: 0 0.25rem;
   border: none;
   border-bottom: $mainSecondary 2px solid;
   transition: background-color ease-in 0.3s;
-
+  font-family: "Roboto Slab", serif;
   &:hover,
   &:focus {
     outline-color: $mainPrimary;
