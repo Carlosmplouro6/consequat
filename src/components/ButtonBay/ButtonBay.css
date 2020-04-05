@@ -65,12 +65,12 @@
   transition: border ease-in 0.4s;
 }
 
-.active {
+.activeBtn {
   background-color: #c04b20;
   border: #fbf7f7 2px solid;
 }
 
-.active::after {
+.activeBtn::after {
   border-bottom: 2px solid #fbf7f7;
 }
 /*# sourceMappingURL=ButtonBay.css.map */

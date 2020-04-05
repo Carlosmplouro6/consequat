@@ -5,6 +5,10 @@ const ButtonBay = () => {
   const [categories, setCategories] = useState([]);
   const [activeCategory, setACategory] = useState("");
 
+  useEffect(() => {
+    fetchCategories();
+  }, []);
+
   async function fetchCategories() {
     const categoriesAPI = await fetch(
       "https://www.themealdb.com/api/json/v1/1/list.php?c=list"
@@ -14,10 +18,6 @@ const ButtonBay = () => {
     setCategories(categoriesJson.meals);
   }
 
-  useEffect(() => {
-    fetchCategories();
-  }, []);
-
   function buttonClicked(category) {
     setACategory(category);
     console.log(activeCategory);
@@ -25,15 +25,15 @@ const ButtonBay = () => {
     for (var i = 0; i < Buttons.length; i++) {
       if (Buttons[i].id === category) {
         clearActive();
-        Buttons[i].className += " active";
+        Buttons[i].className += " activeBtn";
       }
     }
   }
 
   function clearActive() {
-    var current = document.getElementsByClassName("active");
+    var current = document.getElementsByClassName("activeBtn");
     if (current.length > 0) {
-      current[0].className = current[0].className.replace(" active", "");
+      current[0].className = current[0].className.replace(" activeBtn", "");
     }
   }
 
