@@ -1,0 +1,29 @@
+@import "../../utilities/_variables";
+
+.RecepieCardContainer {
+  width: 82vw;
+  height: 88vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  overflow: scroll;
+  justify-items: center;
+
+  .recepieCard {
+    margin: 0.5rem;
+    width: 26vw;
+    height: 40vh;
+    background-color: $mainSecondary;
+    text-align: center;
+    border-radius: 20px;
+    .recepieImg {
+      margin-top: 1rem;
+      width: 19vw;
+      border-radius: 20px;
+    }
+
+    .recepieTitle {
+      margin: 0 3rem;
+    }
+  }
+}

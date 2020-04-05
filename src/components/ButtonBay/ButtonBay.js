@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import { FoodContext } from "../../context/FoodContext";
 import "./ButtonBay.css";
 
 const ButtonBay = () => {
   const [categories, setCategories] = useState([]);
-  const [activeCategory, setACategory] = useState("");
-
+  const [category, setCategory] = useContext(FoodContext);
   useEffect(() => {
     fetchCategories();
   }, []);
@@ -18,12 +18,11 @@ const ButtonBay = () => {
     setCategories(categoriesJson.meals);
   }
 
-  function buttonClicked(category) {
-    setACategory(category);
-    console.log(activeCategory);
+  function buttonClicked(pressedCategory) {
+    setCategory(pressedCategory);
     var Buttons = document.getElementsByClassName("categorieButton");
     for (var i = 0; i < Buttons.length; i++) {
-      if (Buttons[i].id === category) {
+      if (Buttons[i].id === pressedCategory) {
         clearActive();
         Buttons[i].className += " activeBtn";
       }

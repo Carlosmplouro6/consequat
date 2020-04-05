@@ -9,6 +9,8 @@
   width: 100vw;
   background-color: $mainSecondary;
   color: $blackText;
+  box-sizing: border-box;
+  border-top: 2px solid black;
   .FooterContent {
     margin: 0 1rem;
 

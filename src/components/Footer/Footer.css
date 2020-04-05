@@ -16,6 +16,9 @@
   width: 100vw;
   background-color: #c04b20;
   color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 2px solid black;
 }
 
 .FooterContainer .FooterContent {

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import MainContent from "./components/MainContent/MainContent";
-import { FoodContext } from "./FoodContext";
+import { FoodContext } from "./context/FoodContext";
 import "./app.css";
 
 class App extends Component {
