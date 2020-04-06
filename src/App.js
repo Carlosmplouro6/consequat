@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import "./app.css";
+
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import MainContent from "./components/MainContent/MainContent";
 import { FoodContext } from "./context/FoodContext";
-import "./app.css";
 
 class App extends Component {
   render() {

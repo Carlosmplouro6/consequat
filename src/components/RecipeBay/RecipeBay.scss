@@ -8,6 +8,7 @@
   grid-template-rows: auto;
   overflow: scroll;
   justify-items: center;
+  color: $TextColor;
 
   .recepieCard {
     margin: 0.5rem;
@@ -20,7 +21,7 @@
     border: 2px solid black;
     .recepieImg {
       margin-top: 1rem;
-      width: 60%;
+      width: 15vw;
       border-radius: 20px;
     }
 

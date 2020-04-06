@@ -9,6 +9,7 @@
       grid-template-rows: auto;
   overflow: scroll;
   justify-items: center;
+  color: #5d4f86;
 }
 
 .RecepieCardContainer .recepieCard {
@@ -16,7 +17,7 @@
   width: 26vw;
   height: 97%;
   max-height: 37vh;
-  background-color: #d3744f;
+  background-color: #ffb39c;
   text-align: center;
   border-radius: 20px;
   border: 2px solid black;
@@ -24,7 +25,7 @@
 
 .RecepieCardContainer .recepieCard .recepieImg {
   margin-top: 1rem;
-  width: 60%;
+  width: 15vw;
   border-radius: 20px;
 }
 

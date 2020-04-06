@@ -1,6 +1,6 @@
 .headerContainer {
   height: 6vh;
-  background-color: #d3744f;
+  background-color: #ffb39c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,7 +17,7 @@
 
 .headerContainer .logo a {
   text-decoration: none;
-  color: black;
+  color: #5d4f86;
   font-family: "Dancing Script", cursive;
   font-size: 20px;
 }

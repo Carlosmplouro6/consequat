@@ -14,8 +14,8 @@
           align-items: center;
   height: 6vh;
   width: 100vw;
-  background-color: #d3744f;
-  color: black;
+  background-color: #ffb39c;
+  color: #5d4f86;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-top: 2px solid black;
@@ -26,6 +26,6 @@
 }
 
 .FooterContainer .FooterContent a {
-  color: black;
+  color: #5d4f86;
 }
 /*# sourceMappingURL=Footer.css.map */

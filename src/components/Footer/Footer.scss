@@ -8,14 +8,14 @@
   height: 6vh;
   width: 100vw;
   background-color: $mainSecondary;
-  color: $blackText;
+  color: $TextColor;
   box-sizing: border-box;
   border-top: 2px solid black;
   .FooterContent {
     margin: 0 1rem;
 
     a {
-      color: $blackText;
+      color: $TextColor;
     }
   }
 }

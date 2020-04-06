@@ -26,7 +26,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #d3744f;
+  background: #ffb39c;
   border-radius: 10px;
 }
 
@@ -35,7 +35,7 @@
   height: 4rem;
   margin: 0 0;
   background-color: #fbf7f7;
-  color: black;
+  color: #5d4f86;
   font-size: 1.7rem;
   margin: 0 0.25rem;
   border: none;
@@ -46,7 +46,7 @@
 }
 
 .categorieButton:hover, .categorieButton:focus {
-  background-color: #d3744f;
+  background-color: #ffb39c;
   border: #fbf7f7 4px solid;
 }
 
@@ -60,13 +60,13 @@
   position: relative;
   bottom: -5px;
   width: 100%;
-  border-bottom: 2px solid #d3744f;
+  border-bottom: 2px solid #ffb39c;
   -webkit-transition: border ease-in 0.4s;
   transition: border ease-in 0.4s;
 }
 
 .activeBtn {
-  background-color: #d3744f;
+  background-color: #ffb39c;
   border: #fbf7f7 2px solid;
 }
 
