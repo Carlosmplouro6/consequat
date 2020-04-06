@@ -14,15 +14,17 @@
 .RecepieCardContainer .recepieCard {
   margin: 0.5rem;
   width: 26vw;
-  height: 40vh;
-  background-color: #c04b20;
+  height: 97%;
+  max-height: 37vh;
+  background-color: #d3744f;
   text-align: center;
   border-radius: 20px;
+  border: 2px solid black;
 }
 
 .RecepieCardContainer .recepieCard .recepieImg {
   margin-top: 1rem;
-  width: 19vw;
+  width: 60%;
   border-radius: 20px;
 }
 

@@ -26,7 +26,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c04b20;
+  background: #d3744f;
   border-radius: 10px;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .categorieButton:hover, .categorieButton:focus {
-  background-color: #c04b20;
+  background-color: #d3744f;
   border: #fbf7f7 4px solid;
 }
 
@@ -60,13 +60,13 @@
   position: relative;
   bottom: -5px;
   width: 100%;
-  border-bottom: 2px solid #c04b20;
+  border-bottom: 2px solid #d3744f;
   -webkit-transition: border ease-in 0.4s;
   transition: border ease-in 0.4s;
 }
 
 .activeBtn {
-  background-color: #c04b20;
+  background-color: #d3744f;
   border: #fbf7f7 2px solid;
 }
 

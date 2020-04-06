@@ -1,0 +1,55 @@
+.recepieFieldCardContainer {
+  background-color: rgba(116, 116, 116, 0.322);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  text-align: center;
+  overflow: hidden;
+}
+
+.recepieFieldCardContainer .recepieFieldCard {
+  background-color: #d3744f;
+  height: 85vh;
+  width: 60vw;
+  overflow: scroll;
+  margin: 7.5vh 20vw;
+  z-index: 101;
+  border: black 2px solid;
+  border-radius: 20px;
+}
+
+.recepieFieldCardContainer .recepieFieldCard .recepiePic {
+  width: 30vh;
+  border: black 2px solid;
+}
+
+.recepieFieldCardContainer .recepieFieldCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recepieFieldCardContainer .recepieFieldCard .recepieInstructions {
+  margin: 3rem 10rem;
+}
+
+.recepieFieldCardContainer .recepieFieldCard .CloseBtn {
+  position: absolute;
+  right: 19.85vw;
+  top: 7.65vh;
+  background-color: #9b1515;
+  height: 40px;
+  width: 40px;
+  border: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100%;
+}
+
+.recepieFieldCard::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=recepie.css.map */
