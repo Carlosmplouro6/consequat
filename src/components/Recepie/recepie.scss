@@ -20,7 +20,7 @@
     margin: 7.5vh 20vw;
     z-index: 101;
     border: black 2px solid;
-    border-radius: 20px;
+    border-radius: 10px;
     .recepiePic {
       width: 30vh;
       border: black 2px solid;
@@ -40,14 +40,14 @@
 
     .CloseBtn {
       position: absolute;
-      right: 19.85vw;
-      top: 7.65vh;
+      right: 19.8vw;
+      top: 7.5vh;
       background-color: rgb(155, 21, 21);
       height: 40px;
       width: 40px;
-      border: transparent;
+      border: black solid 2px;
       box-sizing: border-box;
-      border-radius: 100%;
+      border-radius: 10px;
     }
   }
 }
