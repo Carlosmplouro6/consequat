@@ -32,4 +32,55 @@
 .RecepieCardContainer .recepieCard .recepieTitle {
   margin: 0 3rem;
 }
+
+@media (max-width: 1400px) {
+  .RecepieCardContainer .recepieCard {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 1100px) {
+  .RecepieCardContainer {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .recepieCard {
+    margin: 0.5rem;
+    width: 35vw !important;
+    max-height: 40vh;
+  }
+  .recepieCard .recepieImg {
+    width: 20vw !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .RecepieCardContainer {
+    width: 100vw;
+  }
+  .recepieCard {
+    width: 40vw !important;
+    max-height: 40vh;
+  }
+  .recepieCard .recepieImg {
+    width: 20vw !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .RecepieCardContainer {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    left: -5vw;
+    z-index: 0;
+  }
+  .recepieCard {
+    width: 80vw !important;
+    max-height: 60vh !important;
+  }
+  .recepieCard .recepieImg {
+    width: 60vw !important;
+  }
+}
 /*# sourceMappingURL=RecipeBay.css.map */

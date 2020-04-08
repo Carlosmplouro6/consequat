@@ -21,6 +21,7 @@ const ButtonBay = () => {
   function buttonClicked(pressedCategory) {
     setCategory(pressedCategory);
     var Buttons = document.getElementsByClassName("categorieButton");
+    document.getElementById("checkbox").checked = false;
     for (var i = 0; i < Buttons.length; i++) {
       if (Buttons[i].id === pressedCategory) {
         clearActive();
@@ -37,17 +38,23 @@ const ButtonBay = () => {
   }
 
   return (
-    <div className="buttonGrid">
-      {categories.map((categories) => (
-        <button
-          key={categories.strCategory}
-          id={categories.strCategory}
-          className="categorieButton"
-          onClick={() => buttonClicked(categories.strCategory)}
-        >
-          {categories.strCategory}
-        </button>
-      ))}
+    <div id="menuToggle">
+      <input id="checkbox" type="checkbox" defaultChecked />
+      <span></span>
+      <span></span>
+      <span></span>
+      <div className="buttonGrid">
+        {categories.map((categories) => (
+          <button
+            key={categories.strCategory}
+            id={categories.strCategory}
+            className="categorieButton"
+            onClick={() => buttonClicked(categories.strCategory)}
+          >
+            {categories.strCategory}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };

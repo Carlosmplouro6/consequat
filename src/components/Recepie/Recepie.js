@@ -56,20 +56,26 @@ function Recepie() {
             return (
               <div className="recepieFieldCardContainer">
                 <div className="recepieFieldCard">
-                  <h2> {recepieData.meals[0].strMeal} </h2>
-                  <img
-                    className="recepiePic"
-                    src={recepieData.meals[0].strMealThumb}
-                    alt={recepieData.meals[0].strMeal}
-                  />
-                  <h4>Ingredients:</h4>
-                  <ul>
-                    {ingredients.map((ingredients, index) => (
-                      <li key={index}>
-                        {ingredients} - {measures[index]}
-                      </li>
-                    ))}
-                  </ul>
+                  <h2 className="recepieName">
+                    {recepieData.meals[0].strMeal}
+                  </h2>
+                  <div className="imgIngContainer">
+                    <img
+                      className="recepiePic"
+                      src={recepieData.meals[0].strMealThumb}
+                      alt={recepieData.meals[0].strMeal}
+                    />
+                    <ul>
+                      <h4 className="ingredientsTitle">Ingredients:</h4>
+                      {ingredients.map((ingredients, index) => (
+                        <li key={index}>
+                          {ingredients} - {measures[index]}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <h4 className="instructionsTitle">Instructions:</h4>
                   <p className="recepieInstructions">
                     {recepieData.meals[0].strInstructions}
                   </p>
