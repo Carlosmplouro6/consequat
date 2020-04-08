@@ -28,4 +28,10 @@
 .FooterContainer .FooterContent a {
   color: #5d4f86;
 }
+
+@media (max-width: 500px) {
+  .FooterContainer {
+    height: 10vh;
+  }
+}
 /*# sourceMappingURL=Footer.css.map */

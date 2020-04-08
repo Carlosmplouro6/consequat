@@ -21,4 +21,10 @@
   font-family: "Dancing Script", cursive;
   font-size: 20px;
 }
+
+@media (max-width: 500px) {
+  .headerContainer {
+    height: 10vh;
+  }
+}
 /*# sourceMappingURL=Header.css.map */
