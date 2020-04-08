@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/consequat/static/css/main.443a460d.chunk.css",
+    "main.css": "/consequat/static/css/main.9cfb356f.chunk.css",
     "main.js": "/consequat/static/js/main.2cb4e2c3.chunk.js",
     "main.js.map": "/consequat/static/js/main.2cb4e2c3.chunk.js.map",
     "runtime-main.js": "/consequat/static/js/runtime-main.32a7431d.js",
@@ -8,15 +8,15 @@
     "static/js/2.f54fe4fe.chunk.js": "/consequat/static/js/2.f54fe4fe.chunk.js",
     "static/js/2.f54fe4fe.chunk.js.map": "/consequat/static/js/2.f54fe4fe.chunk.js.map",
     "index.html": "/consequat/index.html",
-    "precache-manifest.70b734cf606c610272f5d1a9023778db.js": "/consequat/precache-manifest.70b734cf606c610272f5d1a9023778db.js",
+    "precache-manifest.174870cf69b9d299b83e4e00810ba74d.js": "/consequat/precache-manifest.174870cf69b9d299b83e4e00810ba74d.js",
     "service-worker.js": "/consequat/service-worker.js",
-    "static/css/main.443a460d.chunk.css.map": "/consequat/static/css/main.443a460d.chunk.css.map",
+    "static/css/main.9cfb356f.chunk.css.map": "/consequat/static/css/main.9cfb356f.chunk.css.map",
     "static/js/2.f54fe4fe.chunk.js.LICENSE.txt": "/consequat/static/js/2.f54fe4fe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.32a7431d.js",
     "static/js/2.f54fe4fe.chunk.js",
-    "static/css/main.443a460d.chunk.css",
+    "static/css/main.9cfb356f.chunk.css",
     "static/js/main.2cb4e2c3.chunk.js"
   ]
 }
