@@ -98,7 +98,11 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
+  .recepieFieldCardContainer {
+    min-height: 108vh;
+    max-height: 120vh;
+  }
   .recepieFieldCardContainer .recepieFieldCard {
     width: 80vw;
     margin: 10vh 10vw;
